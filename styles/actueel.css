@@ -1,8 +1,16 @@
+h1 {
+    color: grey;
+}
+body {
+    color: pink;
+}
 #artikel1 {
     background-color: red;
     width: 100px;
     height: 100px;
 }
 #artikel2 {
-
+    background-color: blue;
+    height: 100px;
+    width: 100px;
 }
