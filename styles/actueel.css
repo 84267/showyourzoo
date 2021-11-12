@@ -35,18 +35,40 @@ nav ul li a{
 }
 
 h1 {
-    color: grey;
-}
-body {
-    color: pink;
+    color: #000C2C;
+    font-size: 50;
+    -webkit-text-stroke: solid;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #d0e5da;
 }
 #artikel1 {
-    background-color: red;
-    width: 100px;
-    height: 100px;
+    background-color: #f89d0e;
+    width: 47.5%;
+    height: 80%;
+    float: left;
+    margin: 10px;
+    margin-top: 50px;
 }
 #artikel2 {
-    background-color: blue;
-    height: 100px;
-    width: 100px;
+    background-color: #f89d0e;
+    width: 47.5%;
+    height: 80%;
+    float: right;
+    margin: 10px;
+    margin-top: 50px;
+}
+#actueel_banner {
+    width: 100%;
+    height: 200px;
+}
+#actueel_titel {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    bottom: 200px;
+    position: relative;
+}
+#act_banner {
+    width: 100%;
+    height: 200px;
 }
