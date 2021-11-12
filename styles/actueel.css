@@ -1,5 +1,6 @@
 body {
     background-color: #d0e5da;
+    margin: 0px;
 }
 
 nav{
@@ -58,8 +59,10 @@ h1 {
     margin-top: 50px;
 }
 #actueel_banner {
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: 400px;
+    margin-left:auto;
+    margin-right:auto;
 }
 #actueel_titel {
     text-align: center;
@@ -70,5 +73,5 @@ h1 {
 }
 #act_banner {
     width: 100%;
-    height: 200px;
+    height: 400px;
 }
