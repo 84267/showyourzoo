@@ -43,3 +43,10 @@ nav ul li a{
 h1 {
     text-align:center
 }
+h2 {
+    text-align:center
+}
+.dieren {
+    border: 5px outset #555;
+    text-align: left;
+}
