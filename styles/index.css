@@ -1,11 +1,18 @@
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../media/Font/Baskerville.ttc');
+} 
+
 body {
+    margin: 0;
     background-color: #d0e5da;
 }
 #bannerimage{
-    position: absolute;
+    position: fixed;
+    top: 0%;
     padding: 0 1px;
     margin: 0;
-    width: 99%;
+    width: 100%;
     z-index: 0  ;
 }
 nav{
@@ -27,6 +34,7 @@ nav ul li{
     list-style: none;
 }
 nav ul li a{
+    font-family: 'Baskerville';
     display: block;
     color: black;
     padding: 0 20px;
@@ -38,4 +46,10 @@ nav ul li a{
 }
 #logo{
     height: 100px;
+}
+h1 {
+    font-family: 'Baskerville';
+    text-align: center;
+    position: relative;
+    
 }
