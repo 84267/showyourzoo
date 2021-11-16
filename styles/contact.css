@@ -7,8 +7,6 @@ body {
     background-color: #d0e5da;
     font-family: 'Baskerville';
 }
-
-
 nav{
     width: 100%;
     height: 100px;
@@ -17,6 +15,7 @@ nav{
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 nav ul{
     display: flex;
@@ -42,4 +41,11 @@ nav ul li a{
 }
 .alles{
     font-family: 'Baskerville';
+}
+#bannerimage{
+    position: relative;
+    top: -110px;
+    margin: 0;
+    width: 100%;
+    z-index: 5  ;
 }
