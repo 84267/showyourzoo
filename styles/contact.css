@@ -40,6 +40,7 @@ nav ul li a{
 }
 .alles{
     font-family: 'Baskerville';
+    padding: 0 20px;
 }
 #bannerimage{
     position: relative;
@@ -47,4 +48,21 @@ nav ul li a{
     margin: 0;
     width: 100%;
     z-index: 5  ;
+}
+h1{
+    text-align: center;
+}
+#inf{
+    position: relative;
+    width: 47.5%;
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+#open{
+    position: relative;
+    width: 47.5%;
+    height: 50%;
+    float: right;
+    margin: 10px;
 }
