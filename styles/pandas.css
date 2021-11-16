@@ -6,7 +6,6 @@ body {
     margin: 0;
     background-color: #d0e5da;
     font-family: 'Baskerville';
-    padding: 0 20px;
 }
 
 nav{
@@ -39,4 +38,7 @@ nav ul li a{
 }
 #logo{
     height: 100px;
+}
+#tekst {
+    padding: 20px;
 }
