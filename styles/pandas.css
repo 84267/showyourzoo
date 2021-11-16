@@ -47,6 +47,6 @@ nav ul li a{
     position: relative;
     top: -110px;
     margin: 0;
-    width: fit-content;
+    width: 100%;
     z-index: 5  ;
 }
