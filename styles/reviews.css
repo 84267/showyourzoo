@@ -5,6 +5,7 @@
 body {
     margin: 0;
     background-color: #d0e5da;
+    font-family: 'Baskerville';
 }
 
 
@@ -46,5 +47,45 @@ nav ul li a{
 h1{
     padding: 0 20px;
     font-family: 'Baskerville';
-
+    text-align: center;
+}
+#persoon1{
+    position: relative;
+    width: 47.5%;
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+#persoon2{
+    position: relative;
+    width: 47.5%;
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+#persoon3{
+    position: relative;
+    width: 47.5%;
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+#persoon4{
+    width: 47.5%;
+    height: 50%;
+    float: right;
+    margin: 10px;
+}
+#persoon5{
+    position: relative;
+    width: 47.5%;
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+#persoon6{
+    width: 47.5%;
+    height: 50%;
+    float: right;
+    margin: 10px;
 }

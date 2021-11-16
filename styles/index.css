@@ -6,6 +6,7 @@
 body {
     margin: 0;
     background-color: #d0e5da;
+    font-family: 'Baskerville';
 }
 #bannerimage{
     position: relative;
@@ -48,9 +49,6 @@ nav ul li a{
     height: 100px;
 }
 h1 {
-    -webkit-text-stroke: solid;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #d0e5da;
     font-family: 'Baskerville';
     color: #139d8e;
     font-size: 150px;

@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../media/Font/Baskerville.ttc');
+} 
 body {
     background-color: #d0e5da;
     margin: 0px;
+    font-family: 'Baskerville';
 }
 
 nav{
