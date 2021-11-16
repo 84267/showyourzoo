@@ -3,8 +3,10 @@
     src: url('../media/Font/Baskerville.ttc');
 } 
 body {
+    margin: 0;
     background-color: #d0e5da;
 }
+
 
 nav{
     width: 100%;
