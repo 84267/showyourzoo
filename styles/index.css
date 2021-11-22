@@ -102,7 +102,21 @@ h1 {
     bottom: 200px;
     position: relative;
 }
-#artikel_foto1 {
+
+
+#img1 {
     height: 200;
-    width: 200;
+    width: auto;
+}
+#artikel_titel1 {
+font-size: 40px;
+}
+#artikel_text1 {
+    font-size: 35px;
+}
+
+
+#img2 {
+    height: 200;
+    width: auto;
 }
