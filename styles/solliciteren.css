@@ -40,3 +40,8 @@ nav ul li a{
 #logo{
     height: 100px;
 }
+#form{
+    padding: 10px;
+    position: fixed;
+    float: left;
+}

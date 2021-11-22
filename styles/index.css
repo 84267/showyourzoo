@@ -102,3 +102,7 @@ h1 {
     bottom: 200px;
     position: relative;
 }
+#artikel_foto1 {
+    height: 200;
+    width: 200;
+}
