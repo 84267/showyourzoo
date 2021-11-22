@@ -40,4 +40,9 @@ nav ul li a{
 #logo{
     height: 100px;
 }
+#giraffe{
+    float: right;
+    padding: 10px;
+    position: relative;
+}
 
