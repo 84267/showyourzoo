@@ -35,3 +35,10 @@ nav ul li a{
 #logo{
     height: 100px;
 }
+h1 {
+    color: rgba(0, 12, 44);
+    font-size: 100;
+    -webkit-text-stroke: solid;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(208, 229, 218);
+}
