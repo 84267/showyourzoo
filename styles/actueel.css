@@ -39,19 +39,19 @@ nav ul li a{
     height: 100px;
 }
 h1 {
-    color: rgba(0, 12, 44);
+    color: rgba(19, 157, 142, 1);
     font-size: 100;
-    -webkit-text-stroke: solid;
-    -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color: rgb(208, 229, 218);
+    align: center;
+    text-shadow: 5px 5px 10px black;
 }
 #artikel1 {
     background-color: rgba(248, 157, 14, 0.7);
     position: relative;
     width: 47.5%;
-    height: 80%;
+    height: 60%;
     float: left;
     margin: 10px;
+    box-shadow: 5px 5px 10px black;
 }
 #img1 {
     margin: 10px;
@@ -64,9 +64,10 @@ h1 {
 #artikel2 {
     background-color: rgba(248, 157, 14, 0.7);
     width: 47.5%;
-    height: 80%;
+    height: 60%;
     float: right;
     margin: 10px;
+    box-shadow: 5px 5px 10px black;
 }
 #img2 {
     margin: 10px;
@@ -90,5 +91,6 @@ h1 {
 }
 #act_banner {
     width: 100%;
-    height: 400px;
+    height: 500px;
+    box-shadow: 5px 5px 10px black;
 }
