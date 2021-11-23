@@ -51,7 +51,7 @@ nav ul li a{
 
 #pinguin{
     float: right;
-    height: 150px;
+    height: 300px;
     width: auto;
 }
 #bannerimage{
@@ -60,4 +60,40 @@ nav ul li a{
     margin: 0;
     width: 100%;
     z-index: 5  ;
+}
+p{
+    float: right;
+    height: 150px;
+    width: auto; 
+    padding: 10px;
+}
+#reuzenpanda{
+    float: left;
+    height: 300px;
+    width: auto;
+}
+#neushoorn{
+    float: right;
+    height: 300px;
+    width: auto;
+}
+#aap{
+    float: left;
+    height: 300px;
+    width: auto;
+}
+#olifant{
+    float: right;
+    height: 400px;
+    width: auto;
+}
+#zebra{
+    float: left;
+    height: 300px;
+    width: auto;
+}
+#tijger{
+    float: right;
+    height: 400px;
+    width: auto;
 }
