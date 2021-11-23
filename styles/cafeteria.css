@@ -48,7 +48,7 @@ nav ul li a{
     width: 100%;
     z-index: 5  ;
 }
-h1 {
+#titel {
     color: #139d8e;
     font-size: 150px;
     position:absolute;
@@ -59,18 +59,28 @@ h1 {
     
 }
 #img1 {
-    height: 200px;
+    height: 320px;
 }
 .vegewonder {
+    background-color: #139e8e77;
+    padding: 5px;
     margin: 10px;
     display:grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
 }
-.yorik {
+#vegewondertekst {
+    font-size: 25px;
+}
+.lorem {
+    background-color: #139e8e77;
+    padding: 5px;
     margin: 10px;
     display:grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
 }
-#tijdelijk {
-    height: max-content ;
+#ipsum {
+    font-size: 25px;
+}
+#img2 {
+    height: 100%;
 }
