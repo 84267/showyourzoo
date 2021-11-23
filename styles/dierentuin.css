@@ -50,11 +50,9 @@ nav ul li a{
 }
 
 #pinguin{
-    padding: 10px;
-    position: relative;
-    padding-right: 500;
-    width: 800px;
-    height: 700px;
+    float: right;
+    height: 150px;
+    width: auto;
 }
 #bannerimage{
     position: relative;
