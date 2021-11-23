@@ -43,4 +43,16 @@ nav ul li a{
 #form{
     position: fixed;
     float: left;
+    text-align: center;
+}
+
+#footer{
+    background: rgba(19, 157, 142, .8);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding: 10px;
+    position:relative;
+    bottom:-700px;
+    height:90px;
 }
