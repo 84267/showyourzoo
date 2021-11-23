@@ -17,6 +17,7 @@ nav{
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 nav ul{
     display: flex;
@@ -44,7 +45,8 @@ nav ul li a{
 #giraffe{
     float: left;
     padding: 10px;
-    position: fixed;
+    position: relative;
+
 }
 
 #pinguin{
@@ -53,4 +55,11 @@ nav ul li a{
     padding-right: 500;
     width: 800px;
     height: 700px;
+}
+#bannerimage{
+    position: relative;
+    top: -110px;
+    margin: 0;
+    width: 100%;
+    z-index: 5  ;
 }
