@@ -59,6 +59,8 @@ h1 {
     z-index: 6;
     
 }
+
+
 #artikel1 {
     background-color: rgba(248, 157, 14, 0.7);
     position: relative;
@@ -70,11 +72,21 @@ h1 {
 #img1 {
     margin: 10px;
     float: left;
+    height: 200;
+    width: auto;
 }
 #artikel_titel1 {
     position: relative;
     top: 10px
 }
+#artikel_titel1 {
+    font-size: 40px;
+}
+#artikel_text1 {
+    font-size: 35px;
+}
+    
+
 #artikel2 {
     background-color: rgba(248, 157, 14, 0.7);
     width: 47.5%;
@@ -90,15 +102,15 @@ h1 {
     position: relative;
     top: 10px
 }
-#actueel_banner {
-    width: 100%;
-    margin-left:auto;
-    margin-right:auto;
+#img2 {
+    margin: 10px;
+    float: left;
+    height: 200;
+    width: auto;
 }
-#actueel_titel {
-    text-align: center;
-    vertical-align: middle;
-    line-height: 90px; 
-    bottom: 200px;
-    position: relative;
+#artikel_titel2 {
+    font-size: 40px;
+}
+#artikel_text2 {
+    font-size: 35px;
 }

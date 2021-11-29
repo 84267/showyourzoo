@@ -17,6 +17,7 @@ nav{
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 nav ul{
     display: flex;
@@ -39,4 +40,31 @@ nav ul li a{
 }
 #logo{
     height: 100px;
+}
+#form{
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+#footer{
+    background: rgba(19, 157, 142, .8);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding: 10px;
+    position:relative;
+    bottom:-700px;
+    height:90px;
+}
+h1{
+text-align: center;
+}
+#bannerimage{
+    position: relative;
+    top: -110px;
+    margin: 0;
+    width: 100%;
+    z-index: 5  ;
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/solliciteren.css">
-    <title>Document</title>
+    <title>Solliciteren</title>
 </head>
 <body>
     <nav>
@@ -17,13 +17,34 @@
             <li><a href="actueel.html">Actueel</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="solliciteren.html">Solliciteren</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
         </ul>
     </nav>
-    <form>
-        <label for="fname">Voornaam:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Achternaam</label><br>
-        <input type="text" id="lname" name="lname">
+    <img id="bannerimage" src="../media/Reuzenpanda.jpeg" alt="Bejing-zoo-ingang">
+    <h1>Solliciteren</h1>
+    <form id="form">
+        <label for="fname">Voornaam:</label>
+        <input  type="text" id="fname" name="fname"><br>
+        <label for="lname">Achternaam:</label>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Emailadres:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Telefoonnummer:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+31 6 12345678"><br>
+        <label for="adress">Adres:</label>
+        <input type="adres" id="adress" name="adress" placeholder="1234AB (woonplaats)"><br>
+        <label for="date">Geboortedatum</label>
+        <input type="date" id="date" name="geboortedatum"><br>
+        <label for="motivatie">Motivatie:</label>
+        <input type="text" id="motivatie" name="motivatie"><br>
+        <label for="werkervaring">Werkervaring:</label>
+        <input type="text" id="werkervaring" name="werkervaring"><br>
+        <button type="submit" form="form1" value="Submit">Verzenden</button>
     </form>
+     <div id="footer">
+        <p>Voor eventuele vragen over het solliciteren kunt u ons mailen op: Solliciteren@Beijngzoo.nl </p>
+     </div>
+     
+    
 </body>
 </html>

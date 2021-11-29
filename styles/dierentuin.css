@@ -17,6 +17,7 @@ nav{
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 nav ul{
     display: flex;
@@ -42,3 +43,62 @@ nav ul li a{
     width: 100%;
 }
 
+#giraffe{
+    float: left;
+    padding: 10px;
+    position: relative;
+
+}
+
+#pinguin{
+    float: right;
+    height: 300px;
+    width: auto;
+}
+#bannerimage{
+    position: relative;
+    top: -150px;
+    margin: 0;
+    width: 100%;
+    z-index: 5  ;
+}
+p{
+    float: right;
+    height: 150px;
+    width: auto; 
+    padding: 10px;
+    font-size: 150%;
+}
+#reuzenpanda{
+    float: left;
+    height: 300px;
+    width: auto;
+}
+#neushoorn{
+    float: right;
+    height: 300px;
+    width: auto;
+}
+#aap{
+    float: left;
+    height: 300px;
+    width: auto;
+}
+#olifant{
+    float: right;
+    height: 400px;
+    width: auto;
+}
+#zebra{
+    float: left;
+    height: 300px;
+    width: auto;
+}
+#tijger{
+    float: right;
+    height: 400px;
+    width: auto;
+}
+h1{
+    text-align: center;
+}
