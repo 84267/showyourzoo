@@ -55,6 +55,7 @@ h1 {
 }
 tr, td, table {
     border:rgba(19, 157, 142, .8) 2px solid;
+    background-color:  rgba(248, 157, 14, 0.7);
 }
 table {
     width: 80%;
