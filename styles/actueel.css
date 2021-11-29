@@ -43,6 +43,7 @@ h1 {
     font-size: 100;
     align: center;
     text-shadow: 5px 5px 10px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #artikel1 {
     background-color: rgba(248, 157, 14, 0.7);
