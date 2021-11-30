@@ -55,41 +55,72 @@ nav ul li a{
 }
 h1 {
     color: rgba(19, 157, 142, 1);
-    font-size: 100;
+    font-size: 100px;
     align: center;
+    text-shadow: 5px 5px 10px black;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #shop_banner {
     width: 100%;
     margin-left:auto;
     margin-right:auto;
+    top: 0px;
 }
 #sho_banner {
     width: 100%;
     height: 500px;
     box-shadow: 5px 5px 10px black;
 }
+#shop_titel {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+    bottom: 200px;
+    position: relative;
+}
 #item1 {
     height: 150px;
     width: 80%;
     background-color: rgba(248, 157, 14, 0.7);
-    margin: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    margin-top: 10px;
 }
 #item2 {
     height: 150px;
     width: 80%;
     background-color: rgba(248, 157, 14, 0.7);
-    margin: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    margin-top: 10px;
 }
 #item3 {
     height: 150px;
     width: 80%;
     background-color: rgba(248, 157, 14, 0.7);
-    margin: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+    margin-top: 10px;
 }
 #item4 {
     height: 150px;
     width: 80%;
-    background-color: rgba(248, 157, 14, 0.7);
-    margin: 5px;
+    background-color: rgba(248, 157, 14, 0.7);  
+    box-shadow: 5px 5px 10px black;  
+    margin: auto;
+    margin-top: 10px;
+    top: 300px;
+}
+.item {
+    float: left;
+    height: 130px;
+    margin: 10px;
+}
+.beschrijving {
+    float: left;
+    margin: 10px;
+}
+.prijs {
+    float: right;
+    margin: 10px;
 }
